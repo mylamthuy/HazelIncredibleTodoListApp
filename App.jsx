@@ -11,7 +11,7 @@ import ToDoForm from './components/ToDoForm';
 
 
 function App() {
-  const [item, setItems] = React.useState([
+  const [items, setItems] = React.useState([
     'Do laundry',
     'Go to gym',
     'Walk dog'
