@@ -7,11 +7,11 @@ import {
     ScrollView
   } from 'react-native';
 
-function ToDoList({items}){
+function ToDoList({tasks}){
     return (
       <>
         <ScrollView>
-          {items.map((value, index) =>(
+          {tasks.map((value, index) =>(
               <Pressable key={index}>
                 <View style={[styles.task]}>
                   <Text style={styles.taskText}>{value}</Text>
